@@ -1,0 +1,99 @@
+{
+  "base": {
+    "confirm": {
+      "delete": "是否确定?",
+      "deleteList": "将删除选中数据，请确认?"
+    },
+    "success": {
+      "create": "创建成功!",
+      "update": "更新成功!",
+      "delete": "删除成功!"
+    },
+    "failed": {
+      "message": "失败!",
+      "create": "创建失败!",
+      "update": "更新失败!",
+      "delete": "删除失败!",
+      "empty": "请先选取数据！"
+    },
+    "queryOp": {
+      "eq": "等于",
+      "ne": "不等于",
+      "in": "包含([ids])",
+      "notIn": "不包含([ids])",
+      "gt": "大于",
+      "gte": "大于等于",
+      "lt": "小于",
+      "lte": "小于等于",
+      "like": "匹配(模糊)",
+      "notLike": "不匹配(模糊)"
+    }
+  },
+  "home": "首页",
+  "login": "登录",
+  "logout": "登出",
+  "dashboard": "管理控制台",
+  "success": "成功",
+  "fail": "失败",
+  "edit": "编辑",
+  "show": "查看",
+  "create": "创建",
+  "delete": "删除",
+  "save": "保存",
+  "cancel": "取消",
+  "update": "更新",
+  "ok": "确定",
+  "export": "导出",
+  "new": "新增",
+  "addFilter": "筛选",
+  "deleteAll": "删除全部",
+  "search": "搜索",
+  "send": "发送",
+
+  "resources": {
+    "Admin": {
+      "attr": {
+        "id": "序号",
+        "username": "用户名",
+        "password": "密码",
+        "createdAt": "创建日期",
+        "updatedAt": "更新日期"
+      },
+      "management": "Admin管理"
+    },
+    "Repo": {
+      "attr": {
+        "id": "序号",
+        "name": "名称",
+        "path": "路径",
+        "guardId": "存储服务",
+        "spaceId": "命名空间",
+        "createdAt": "创建日期",
+        "updatedAt": "更新日期"
+      },
+      "management": "项目仓库管理"
+    },
+    "Guard": {
+      "attr": {
+        "id": "序号",
+        "name": "名称",
+        "url": "服务URL",
+        "repoCount": "仓库数",
+        "createdAt": "创建日期",
+        "updatedAt": "更新日期"
+      },
+      "management": "存储服务管理"
+    },
+    "Space": {
+      "attr": {
+        "id": "序号",
+        "name": "名称",
+        "userId": "用户ID",
+        "repoCount": "仓库数",
+        "createdAt": "创建日期",
+        "updatedAt": "更新日期"
+      },
+      "management": "用户空间管理"
+    }
+  }
+}

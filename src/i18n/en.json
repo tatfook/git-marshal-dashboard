@@ -1,0 +1,99 @@
+{
+  "base": {
+    "confirm": {
+      "delete": "Are you sure?",
+      "deleteList": "Will delete all the list, are you sure?"
+    },
+    "success": {
+      "message": "Success!",
+      "create": "Created successfully!",
+      "update": "Updated successfully!",
+      "delete": "Deleted successfully!"
+    },
+    "failed": {
+      "message": "Failed!",
+      "create": "Failed to create!",
+      "update": "Failed to update!",
+      "delete": "Failed to delete!",
+      "empty": "Empty List!"
+    },
+    "queryOp": {
+      "eq": "equal",
+      "ne": "not equal",
+      "in": "in",
+      "notIn": "not in",
+      "gt": "grate than",
+      "gte": "grate or equal",
+      "lt": "less than",
+      "lte": "less or equal",
+      "like": "like",
+      "notLike": "not like"
+    }
+  },
+  "home": "Home",
+  "login": "Login",
+  "logout": "Logout",
+  "dashboard": "Dashboard",
+  "success": "Success",
+  "failed": "Failed",
+  "edit": "Edit",
+  "show": "Show",
+  "create": "Create",
+  "delete": "Delete",
+  "save": "Save",
+  "cancel": "Cancel",
+  "update": "Update",
+  "ok": "OK",
+  "export": "Export",
+  "new": "New",
+  "addFilter": "Add Filter",
+  "deleteAll": "Delete All",
+  "search": "Search",
+
+  "resources": {
+    "Admin": {
+      "attr": {
+        "id": "id",
+        "username": "username",
+        "password": "password",
+        "createdAt": "created at",
+        "updatedAt": "updated at"
+      },
+      "management": "admin management"
+    },
+    "Repo": {
+      "attr": {
+        "id": "id",
+        "name": "name",
+        "path": "path",
+        "guardId": "guard",
+        "spaceId": "space",
+        "createdAt": "created at",
+        "updatedAt": "updated at"
+      },
+      "management": "repo management"
+    },
+    "Guard": {
+      "attr": {
+        "id": "id",
+        "name": "name",
+        "url": "url",
+        "repoCount": "Repo Count",
+        "createdAt": "created at",
+        "updatedAt": "updated at"
+      },
+      "management": "guard management"
+    },
+    "Space": {
+      "attr": {
+        "id": "id",
+        "name": "name",
+        "userId": "user ID",
+        "repoCount": "Repo Count",
+        "createdAt": "created at",
+        "updatedAt": "updated at"
+      },
+      "management": "space management"
+    }
+  }
+}
